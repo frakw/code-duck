@@ -35,4 +35,6 @@ docker compose up -d
 ![](./imgs/6.png)
 * You should build up your cloudflare tunnel first
 * Type the subdomain you want
-* Select `HTTP` then enter local ip and port 
+* Select `HTTP` then enter local ip and port
+8. All done!  \
+![](./imgs/7.png)
