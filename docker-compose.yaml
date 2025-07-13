@@ -1,0 +1,23 @@
+name: myname
+services:
+  ubuntu:
+    stdin_open: true
+    tty: true
+    devices:
+      - /dev/dri
+    ports:
+      - "8880:8080"
+    volumes:
+      - ./root:/root
+    deploy:
+      resources:
+        reservations:
+            devices:
+              - driver: nvidia
+                count: all
+                capabilities:
+                  - gpu
+    command: /bin/bash -c "code-server & tail -f /dev/null"
+    image: frakw/code-duck:latest
+    container_name: myname-container
+    restart: unless-stopped
