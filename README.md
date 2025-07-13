@@ -27,9 +27,9 @@ docker compose up -d
 6. Access <<your-ip:port>> through browser \
 ![](./imgs/3.png)
 * Enter the password you type before
-7. Start editing you code
+7. Start editing you code  \
 ![](./imgs/4.png)
-8. Run command in terminal
+8. Run command in terminal  \
 ![](./imgs/5.png)
 7. (optional) Add into cloudflare tunnel  \
 ![](./imgs/6.png)
