@@ -1,5 +1,5 @@
 # code-duck
-code-server in docker
+code-server in docker with NVIDIA GPU support
 ## Prerequisite
 * docker installed
 * git installed
