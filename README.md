@@ -1,6 +1,8 @@
 # code-duck
 code-server in docker with NVIDIA GPU support \
 base on [coder](https://coder.com/)'s [code-server](https://github.com/coder/code-server)
+## Docker Image
+[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](https://hub.docker.com/u/frakw)
 ## Prerequisite
 * docker installed
 * git installed
